@@ -257,7 +257,7 @@ async function starts() {
 			console.log(anu)
 			if (anu.action == 'add') {
 				num = anu.participants[0]
-				teks = `Mi loco @${num.split('@')[0]}\nTodo bien NEFASTO!!!! Bienvenido a *${mdata.subject}* el mejor grupo una locura 👉😎👈\n\nUn gusto conocerte hijo de la maraca 😀\n\nOjito sigue las reglas del grupo si no, pa fuera mi loco los admins te eliminan 🧐\n\nPara utilizar el bot registrate con el comando ${prefix}daftar y tu nombre\n\nPara ver los demas comandos utiliza ${prefix}help\n\nOjito con el spam 🧐\n\nby shanduy`
+				teks = `Mi loco @${num.split('@')[0]}\nTodo bien NEFASTO!!!! Bienvenido a *${mdata.subject}* el mejor grupo una locura 👉😎👈\n\nUn gusto conocerte hijo de la maraca 😀\n\nOjito sigue las reglas del grupo si no, pa fuera mi loco los admins te eliminan 🧐\n\nPara utilizar el bot registrate con el comando ${prefix}daftar y tu nombre\n\nPara ver los demas comandos utiliza ${prefix}help\n\nOjito con el spam 🧐\n\nby prz`
                           client.sendMessage(mdata.id, teks, MessageType.text, { contextInfo: {"mentionedJid": [num]}})
 			} else if (anu.action == 'remove') {
 				num = anu.participants[0]
@@ -1312,37 +1312,37 @@ break
 					})
 					break
                 default:
-                if (budy.includes(`Hola`)) {
+                if (budy.includes(`ola`)) {
                   reply(`wtf y este random?`)
                   }
-		if (budy.includes(`Todo bien`)) {
+		if (budy.includes(`Todo bienn`)) {
                   reply(`Si amigo todo bien, vite`)
                   }
 
 		if (budy.includes(`Buenos dias`)) {
-                  reply(`Buenos Dias trolos de mierda`)
+                  reply(`Buenos Dias mis amores`)
                   }
 
 		if (budy.includes(`Bot gay`)) {
-                  reply(`Miren a este boludito`)
+                  reply(`Miren a este bastardo`)
                   }
 
 		if (budy.includes(`Gracias`)) {
-                  reply(`De nada padre`)
+                  reply(`De nada Baby`)
                   }
 
-		if (budy.includes(`Bien gracias y tu?`)) {
-                  reply(`wtf y esta random?`)
+		if (budy.includes(`Bien gracias y tuu?`)) {
+                  reply(`tambien bien mi Amor`)
                   }
 					
 		if (budy.includes(`opa`)) {
-                  reply(`opaaaaa`)
+                  reply(`opaaaaa emir es gay `)
                   }
                  
 		if (budy.includes(`Fua`)) {
-                  reply(`el diegote pa`)
+                  reply(`fua el prz le gana a emir XDDD`)
                   }
-       if (budy.startsWith(`:v`)) {
+       if (budy.startsWith(`:vvv`)) {
         const none = fs.readFileSync('./mp3/viejo1.mp3');
 		client.sendMessage(from, none, MessageType.audio, {quoted: mek, mimetype: 'audio/mp4', ptt:true})
                   }
@@ -1366,27 +1366,27 @@ break
         const none = fs.readFileSync('./anishan/anime1.mp3');
 		client.sendMessage(from, none, MessageType.audio, {quoted: mek, mimetype: 'audio/mp4', ptt:true})
                   }
-	if (budy.startsWith(`Pasen sexo`)) {
+	if (budy.startsWith(`Pasen sexo xd`)) {
         const none = fs.readFileSync('./mp3/fernan.mp3');
 		client.sendMessage(from, none, MessageType.audio, {quoted: mek, mimetype: 'audio/mp4', ptt:true})
                   }
-	if (budy.startsWith(`Paraguayo`)) {
+	if (budy.startsWith(`Paraguayo xd`)) {
         const none = fs.readFileSync('./mp3/gaspi11.mp3');
 		client.sendMessage(from, none, MessageType.audio, {quoted: mek, mimetype: 'audio/mp4', ptt:true})
                   }
-	if (budy.startsWith(`Venezolano`)) {
+	if (budy.startsWith(`Venezolano xd`)) {
         const none = fs.readFileSync('./mp3/gaspi10.mp3');
 		client.sendMessage(from, none, MessageType.audio, {quoted: mek, mimetype: 'audio/mp4', ptt:true})
                   }
-	if (budy.startsWith(`Gaspi corte`)) {
+	if (budy.startsWith(`Gaspi corte xd`)) {
         const none = fs.readFileSync('./mp3/gaspi12.mp3');
 		client.sendMessage(from, none, MessageType.audio, {quoted: mek, mimetype: 'audio/mp4', ptt:true})
                   }
-	if (budy.startsWith(`Gaspi buenos dias`)) {
+	if (budy.startsWith(`Gaspi buenos dias xd`)) {
         const none = fs.readFileSync('./mp3/gaspi13.mp3');
 		client.sendMessage(from, none, MessageType.audio, {quoted: mek, mimetype: 'audio/mp4', ptt:true})
                   }
-	if (budy.startsWith(`Enano`)) {
+	if (budy.startsWith(`Enano xd`)) {
         const none = fs.readFileSync('./mp3/gaspi14.mp3');
 		client.sendMessage(from, none, MessageType.audio, {quoted: mek, mimetype: 'audio/mp4', ptt:true})
                   }
@@ -1394,19 +1394,19 @@ break
         const none = fs.readFileSync('./mp3/gaspi15.mp3');
 		client.sendMessage(from, none, MessageType.audio, {quoted: mek, mimetype: 'audio/mp4', ptt:true})
                   }
-	if (budy.startsWith(`Alto temazo`)) {
+	if (budy.startsWith(`Alto temazo xd`)) {
         const none = fs.readFileSync('./mp3/sombare14.mp3');
 		client.sendMessage(from, none, MessageType.audio, {quoted: mek, mimetype: 'audio/mp4', ptt:true})
                   }
-	if (budy.startsWith(`GOOOOD`)) {
+	if (budy.startsWith(`GOOOOD xd`)) {
         const none = fs.readFileSync('./mp3/sombare13.mp3');
 		client.sendMessage(from, none, MessageType.audio, {quoted: mek, mimetype: 'audio/mp4', ptt:true})
                   }
-	if (budy.startsWith(`Ya me voy a dormir`)) {
+	if (budy.startsWith(`Ya me voy a dormir xd`)) {
         const none = fs.readFileSync('./mp3/sombare12.mp3');
 		client.sendMessage(from, none, MessageType.audio, {quoted: mek, mimetype: 'audio/mp4', ptt:true})
                   }
-        if (budy.startsWith(`Calefon`)) {
+        if (budy.startsWith(`Calefon xd`)) {
         const none = fs.readFileSync('./mp3/sombare11.mp3');
 		client.sendMessage(from, none, MessageType.audio, {quoted: mek, mimetype: 'audio/mp4', ptt:true})
                   }
@@ -1418,15 +1418,15 @@ break
         const none = fs.readFileSync('./mp3/sombare9.mp3');
 		client.sendMessage(from, none, MessageType.audio, {quoted: mek, mimetype: 'audio/mp4', ptt:true})
                   }
-	if (budy.startsWith(`Un chino`)) {
+	if (budy.startsWith(`Un chino xd`)) {
         const none = fs.readFileSync('./mp3/sombare7.mp3');
 		client.sendMessage(from, none, MessageType.audio, {quoted: mek, mimetype: 'audio/mp4', ptt:true})
                   }				
-        if (budy.startsWith(`No funciona`)) {
+        if (budy.startsWith(`No funciona xd`)) {
         const none = fs.readFileSync('./mp3/sombare8.mp3');
 		client.sendMessage(from, none, MessageType.audio, {quoted: mek, mimetype: 'audio/mp4', ptt:true})
                   }
-	if (budy.startsWith(`Boliviano`)) {
+	if (budy.startsWith(`Boliviano xd`)) {
         const none = fs.readFileSync('./mp3/gaspi3.mp3');
 		client.sendMessage(from, none, MessageType.audio, {quoted: mek, mimetype: 'audio/mp4', ptt:true})
                   }
@@ -1434,15 +1434,15 @@ break
         const none = fs.readFileSync('./mp3/gaspi2.mp3');
 		client.sendMessage(from, none, MessageType.audio, {quoted: mek, mimetype: 'audio/mp4', ptt:true})
                   }
-	if (budy.startsWith(`Gaspi me saludas`)) {
+	if (budy.startsWith(`Gaspi me saludas xd`)) {
         const none = fs.readFileSync('./mp3/gaspi4.mp3');
 		client.sendMessage(from, none, MessageType.audio, {quoted: mek, mimetype: 'audio/mp4', ptt:true})
                   }
-	if (budy.startsWith(`Gaspi y las minitas`)) {
+	if (budy.startsWith(`Gaspi y las minitas xd`)) {
         const none = fs.readFileSync('./mp3/gaspi6.mp3');
 		client.sendMessage(from, none, MessageType.audio, {quoted: mek, mimetype: 'audio/mp4', ptt:true})
                   }
-	if (budy.startsWith(`Gaspi todo bien`)) {
+	if (budy.startsWith(`Gaspi todo bien xd`)) {
         const none = fs.readFileSync('./mp3/gaspi7.mp3');
 		client.sendMessage(from, none, MessageType.audio, {quoted: mek, mimetype: 'audio/mp4', ptt:true})
                   }
@@ -1450,11 +1450,11 @@ break
         const none = fs.readFileSync('./mp3/gaspi81.mp3');
 		client.sendMessage(from, none, MessageType.audio, {quoted: mek, mimetype: 'audio/mp4', ptt:true})
                   }
-	if (budy.startsWith(`Gaspi ya no aguanto`)) {
+	if (budy.startsWith(`Gaspi ya no aguanto xd`)) {
         const none = fs.readFileSync('./mp3/gaspi9.mp3');
 		client.sendMessage(from, none, MessageType.audio, {quoted: mek, mimetype: 'audio/mp4', ptt:true})
                   }
-	if (budy.startsWith(`Contate algo bot`)) {
+	if (budy.startsWith(`Contate algo bot xd`)) {
         const none = fs.readFileSync('./mp3/gaspi5.mp3');
 		client.sendMessage(from, none, MessageType.audio, {quoted: mek, mimetype: 'audio/mp4', ptt:true})
                   }
@@ -1462,7 +1462,7 @@ break
         const none = fs.readFileSync('./mp3/sexo.mp3');
 		client.sendMessage(from, none, MessageType.audio, {quoted: mek, mimetype: 'audio/mp4', ptt:true})
                   }
-                 if (budy.startsWith(`Momento epico`)) {
+                 if (budy.startsWith(`Momento epico xd`)) {
         const none = fs.readFileSync('./mp3/sombare1.mp3');
 		client.sendMessage(from, none, MessageType.audio, {quoted: mek, mimetype: 'audio/mp4', ptt:true})
                   }
@@ -1470,11 +1470,11 @@ break
         const none = fs.readFileSync('./mp3/sombare2.mp3');
 		client.sendMessage(from, none, MessageType.audio, {quoted: mek, mimetype: 'audio/mp4', ptt:true})
                   }
-		if (budy.startsWith(`Epicardo`)) {
+		if (budy.startsWith(`Epicardo xd`)) {
         const none = fs.readFileSync('./mp3/sombare3.mp3');
 		client.sendMessage(from, none, MessageType.audio, {quoted: mek, mimetype: 'audio/mp4', ptt:true})
                   }
-		if (budy.startsWith(`Insta de la minita`)) {
+		if (budy.startsWith(`Insta de la minita xd`)) {
         const none = fs.readFileSync('./mp3/sombare4.mp3');
 		client.sendMessage(from, none, MessageType.audio, {quoted: mek, mimetype: 'audio/mp4', ptt:true})
                   }
@@ -1482,15 +1482,15 @@ break
         const none = fs.readFileSync('./mp3/sombare5.mp3');
 		client.sendMessage(from, none, MessageType.audio, {quoted: mek, mimetype: 'audio/mp4', ptt:true})
                   }
-		 if (budy.startsWith(`Ultimo momento`)) {
+		 if (budy.startsWith(`Ultimo momento xd`)) {
         const none = fs.readFileSync('./mp3/sombare6.mp3');
 		client.sendMessage(from, none, MessageType.audio, {quoted: mek, mimetype: 'audio/mp4', ptt:true})
                   }			
-		if (budy.startsWith(`Nefasto`)) {
+		if (budy.startsWith(`Nefasto xd`)) {
         const none = fs.readFileSync('./mp3/gaspi1.mp3');
 		client.sendMessage(from, none, MessageType.audio, {quoted: mek, mimetype: 'audio/mp4', ptt:true})
                   }
-		if (budy.startsWith(`chica lgante`)) {
+		if (budy.startsWith(`chica lgante xd`)) {
         const none = fs.readFileSync('./mp3/chica lgante.mp3');
 		client.sendMessage(from, none, MessageType.audio, {quoted: mek, mimetype: 'audio/mp4', ptt:true})
                   }
